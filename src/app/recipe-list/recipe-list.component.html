@@ -1,0 +1,36 @@
+<div class="row">
+        <div class="col-sm-3">
+
+
+                <!----<div *ngFor="let recipe of recipes">-->
+                        <ul>
+                                <li *ngFor="let recipe of recipes"
+                                [class.selected]="recipe === selectedRecipe"
+                                (click)="onSelect(recipe)">
+                                
+                        
+                                <ul class="list-group">
+                                                <li class="list-group-item active">{{recipe.name}}</li>
+                                                <img src="{{recipe.imagepath}}">
+                                                <li class="list-group-item active">{{recipe.description}}</li>
+                                                
+                                              </ul>
+                                </li>
+                                </ul> <br>
+                                <!-- <label><h1><b>{{recipe.name}}</b></h1>
+                                </label><br> -->
+                                <!-- <label>{{recipe.description}}</label><br>
+                                <label>{{recipe.ingredients}}</label> -->
+
+                                <div class="col-sm-3">
+                        <div *ngIf="selectedRecipe"><br><br><br><br><br><br>
+
+                                        <h2>{{selectedRecipe.name}} </h2>
+                                        <h2>{{selectedRecipe.imagepath}}</h2>
+                                        <h4>{{selectedRecipe.description}}</h4>
+                                        <h4>{{selectedRecipe.ingredients}}</h4>
+                                        
+                </div>
+        </div>
+</div>
+</div>

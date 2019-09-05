@@ -1,0 +1,15 @@
+[
+    { "name":"Chocolate cake",
+      "description":"yummy",
+      "imagepath": "assets/images/cake.jpeg",
+      "ingredients": ["milk","Sugar","Chocolate","Flour"]
+    },
+    {
+      "name": "Pizza",
+      "description": "tasty",
+      "imagepath": "assets/images/pizza.jpeg",
+      "ingredients":["Paneer","Flour","Cheese"]
+    }
+    
+
+]

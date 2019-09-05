@@ -1,0 +1,40 @@
+/* ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    
+  } */
+  
+  li {
+    float: left;
+  }
+  
+  li  {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    
+    text-align: -webkit-match-parent;
+  }
+  nav {
+    float: left;
+    width: 10%;
+    height: 300px; /* only for demonstration, should be removed */
+    
+    padding: 20px;
+  }
+  list-group{
+      margin-left: 0;
+      width:0%;
+  }
+  h2 {
+    text-align: left;
+  }
+  img {
+     width: 100%;
+     height: 200px;
+  }
